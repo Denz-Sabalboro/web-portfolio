@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#card-1, #card-2, #card-3 {
+    transition:.3s ease;
+    cursor: pointer;
+}
+
+#card-1:hover, #card-2:hover, #card-3:hover {
+    transform: scale(1.05);
+    transition: .3s ease;
+}
+
+#icon {
+    filter: grayscale(100%);
+    transition: 0.2s ease;
+}
+
+#icon:hover {
+    filter: grayscale(0);
+    transition: 0.2s ease;
+}
